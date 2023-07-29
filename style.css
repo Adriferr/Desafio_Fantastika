@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Caesar+Dressing&family=Cherry+Bomb+One&family=Inter:wght@200&family=Lato:wght@300&family=Lily+Script+One&family=Montserrat:wght@100&family=Nunito:wght@500;600;700&family=Reem+Kufi+Fun:wght@700&family=Roboto+Serif:opsz,wght@8..144,700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Caesar+Dressing&family=Cherry+Bomb+One&family=Inter:wght@200&family=Lato:wght@300&family=Lily+Script+One&family=Montserrat:wght@100&family=Nunito:wght@500;600;700&family=Reem+Kufi+Fun:wght@700&family=Roboto&family=Roboto+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    /* border: solid red; */
+    background-color:#252525;
+    color:white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconeTextoFantastika{
+    /* border:solid green; */
+    width: 17vw;
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Serif";
+    font-weight: bold;
+}
+
+.iconeFantastika{
+    width: 3vw;
+}
+
+.redesSociais{
+    /* border:solid tomato; */
+    width:13vw;
+}
+
+.iconesFigureRedesSociais{
+    /* border: solid blue; */
+    width:9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primeiraSessaoDaMain{
+    /* border: solid red; */
+    color: #FFFFFF;
+    height:105vh;
+    background-image: url(./img/Grupo\ 486@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeiraSessaoDaMain h2{
+    width:54vw;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.primeiraSessaoDaMain figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.segundaSessaoDaMain{
+    color: #3A342F;
+    height:105vh;
+    background-image: url(./img/Interseção\ 16.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center right;
+    background-color: #F4F2F3;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right:48vw;
+}
+
+.segundaSessaoDaMain h2{
+    font-family: "Roboto Serif";
+    font-size: 4vw;
+}
+
+.segundaSessaoDaMain p{
+    width:29vw;
+    font-size: 4vh;
+    margin-top: 20px;
+}
+
+.segundaSessaoDaMain button{
+    background-color: #3a342f;
+    color: #f4f2f3;
+    width: 12vw;
+    height: 9vh;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+.terceiraSessaoDaMain{
+    color:#FFFFFF;
+    height:105vh;
+    background-image: url(./img/Grupo\ 480.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center left;
+    background-color: #f8618e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:end;
+    padding-right:30vw;
+}
+
+.terceiraSessaoDaMain h2{
+    font-family: "Roboto Serif";
+    font-size: 4vw;
+    width:10vw;
+}
+
+.terceiraSessaoDaMain p{
+    width:26vw;
+    font-size: 4vh;
+    margin-top: 20px;
+}
+
+.terceiraSessaoDaMain button{
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 12vw;
+    height: 9vh;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    font-family:"Roboto";
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+.quartaSessaoDaMain{
+    /* border: solid red; */
+    width:99vw;
+    height:17vh;
+    color:#FD6A9A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+}
+
+.quartaSessaoDaMain p{
+    font-family: "Roboto Serif";
+    font-size:28px;
+}
+
+.segundaFigureDaMain{
+    /* border: solid blue; */
+    width:70vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer{
+    height:38vh;
+    background-color: #EB4A7B;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-right:76vh;
+}
+
+footer h2{
+    font-family: "Roboto Serif";
+}
+
+.primeiraSessaoDoFooter p{
+    margin-top: 30px;
+    width: 7vw;
+}
+
+.segundaSessaoDoFooter p{
+    margin-top: 30px;
+    width:10vw;
+}
+
+.terceiraSessaoDoFooter p{
+    margin-top: 30px;
+    width: 7vw;
+}
+
+@media screen and (max-width:500px){
+    .iconeTextoFantastika{
+        /* border:solid blue; */
+        width:56vw;
+        height:20vh;
+        font-size:40px;
+        margin-left: 32px;
+    }
+
+    .iconeFantastika{
+        width:14vw;
+    }
+
+    .redesSociais{
+        /* border:solid yellow; */
+        width:20vw;
+        height:20vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 32px;
+    }
+
+    .iconesFigureRedesSociais{
+        /* border:solid tomato; */
+        width:20vw;
+
+    }
+
+    .iconeInstagram{
+        display:none;
+    }
+
+    .iconeYoutube{
+        display:none;
+    }
+
+    .iconeWhatsapp{
+        width:16vw;
+        height:12vh;
+    }
+
+    .primeiraSessaoDaMain h2{
+        font-size:6vw;
+        margin-bottom:20px;
+    }
+
+    .segundaSessaoDaMain{
+        /* border:solid green; */
+        background-position:left bottom;
+        background-size: 70% 50%;
+        justify-content: start;
+        padding-top: 10vw;
+        padding-left: 14vw;
+    }
+
+    .segundaSessaoDaMain h2{
+        /* border:solid blue; */
+        width:52vw;
+        font-size:6vw;
+    }
+
+    .segundaSessaoDaMain p{
+        /* border:solid pink; */
+        width:50vw;
+        font-size: 3vw;
+    }
+
+    .segundaSessaoDaMain button{
+        width:32vw;
+    }
+    
+
+    .terceiraSessaoDaMain{
+        background-position:left bottom;
+        background-size: 70% 50%;
+        justify-content: start;
+        padding-top: 6vw;
+        padding-right: 42vw;
+    }
+
+    .terceiraSessaoDaMain h2{
+        /* border:solid tomato; */
+        width:52vw;
+        font-size:5vw;
+        margin-bottom: 1vw;
+    }
+
+    .terceiraSessaoDaMain p{
+        width:50vw;
+        font-size: 3vw;
+        margin-top:2vw;
+    }
+
+    .terceiraSessaoDaMain button{
+        width:32vw;
+    
+    }
+
+    .quartaSessaoDaMain{
+        height:26vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right:12vw;
+    }
+
+    .segundaFigureDaMain{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer{
+        height: 90vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50vw;
+    }
+
+
+    .primeiraSessaoDoFooter p{
+        width:20vw;
+        text-align:center;
+        padding-left:4vw;
+    }
+
+    .segundaSessaoDoFooter p{
+        width:20vw;
+        text-align:center;
+        padding-left:4vw;
+    }
+    .segundaSessaoDoFooter{
+        padding-right:8vw;
+    }
+
+    .terceiraSessaoDoFooter p{
+        width:20vw;
+        text-align:center;
+        padding-left:4vw;
+    }
+    
+}
